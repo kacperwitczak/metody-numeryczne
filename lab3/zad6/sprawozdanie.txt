@@ -1,0 +1,24 @@
+1. Normy błedu rezydualnego
+a) Metoda bezpośrednia
+- Wartość normy błędu dla metody bezpośrednien wyniosła 7.0645e-13
+
+b) Metoda Jacobi'ego
+- Minimalna wartosc normy błędu dla metody Jacobi'ego wyniosła 254.2894
+- Maksymalna wartość normy błędu dla metody Jacobi'ego wyniosła Inf
+
+Wartość normy błędu rezydualnego spadła tylko przy pierwszej iteracji. Przy 620 iteracji wartość ta wyniosła NAN. Najwyższa zarejestrowana wartość wyniosła ok. 10^307.
+
+c) Metoda Gaussa-Seidel'a 
+- Minimalna wartosc normy błędu dla metody Gaussa-Seidel'a  wyniosła 4.5044
+- Maksymalna wartość normy błędu dla metody Gaussa-Seidel'a  wyniosła 6.2687e+10
+
+Wartosc normy błędu rezydualnego przez kilkadziesiąt iteracji i ustabilizowała się w okolicy wartości 4.5, a następnie wartość błędu zaczeła gwałtownie wzrastać.
+
+2. Zbieżność metod iteracyjnych.
+Dostarczone macierze A i b nie spełniają warunków zbieżności metod Jacobi'ego i Gaussa-Seidel'a, przez co metody te nie są w stanie przybliżyć wartości rozwiązania, a ich norma błędu rezydalnego nie zbiega do odpowiedniego pułapu.
+
+
+
+
+
+

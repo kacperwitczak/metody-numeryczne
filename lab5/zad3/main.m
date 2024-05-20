@@ -1,0 +1,1 @@
+[matrix_condition_numbers, max_coefficients_difference_1, max_coefficients_difference_2] = zadanie3();

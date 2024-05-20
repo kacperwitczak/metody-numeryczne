@@ -1,0 +1,7 @@
+Funkcja fzero w Matlabie służy do aproksymowania miejsca zerowego funkcji. Korzysta ona z różnych metod znajdywania miejsca zerowego.
+
+fzero(@tan, 6, options)
+Dla zadanych w powyższej funkcji parametrów algorytm zadziałał prawidłowo i udało się znaleźć miejsce zerowe funkcji tangens. Rezultat okazał się pozytywny. Podana przez nas wartość (x=6) była dobrym strzałem, ponieważ znajduję się ona w okolicach miejsca zerowego.
+
+fzero(@tan, 4.5, options)
+Dla zadanych w powyższej funkcji parametrów, algorytm nie zadziałał prawidłowo i znalazł asymptotę. Wynika to z tego, że po jednej stronie asymptoty wartości są ujemne, a po drugiej dodatnie. Algorytm traktuje to jako zmiane znaku co utożsamia z znalezieniem miejsca zerowego. 
